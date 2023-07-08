@@ -1,0 +1,52 @@
+.Bbox{
+    border: 5px solid rgb(252, 252, 252);
+    margin: 50px;
+    border-radius: 25px;
+    height: 500px;
+    width: 250px;
+    justify-self: center;
+    align-self: center;
+    display: grid;
+    background-size: 200px 400px;
+    /* background: linear-gradient(93.16deg,#817bee .01%,#32aee3 100.01%); */
+    background: linear-gradient(93.16deg,#20afea .01%,#3c7ea9 100.01%);
+    justify-items: center;
+    align-items: center;
+    color: rgb(40, 5, 75);
+    font-size: larger;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.Bitem1{
+    text-transform: uppercase;
+    text-align: center;
+}
+.btn6{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(0, 13, 255, 0.368);
+    color: white;
+    
+}
+.searchbar{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgba(16, 40, 147, 0);
+}
+.btn6:hover{
+    background-color: brown;
+    transition-duration: .5s;
+}
+.arrow{
+    background: none;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    margin-right: 200px;
+}
+.arrow:hover{
+    background-color: brown;
+    transition-duration: .5s;
+}

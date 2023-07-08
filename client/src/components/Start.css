@@ -1,0 +1,37 @@
+.box{
+    margin: 50px;
+    border: 5px solid rgb(252, 252, 252);
+    border-radius: 25px;
+    height: 500px;
+    width: 250px;
+    justify-self: center;
+    align-self: center;
+   background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image:url(https://static.vecteezy.com/system/resources/previews/015/723/961/non_2x/cute-little-girl-play-wear-raincoat-with-umbrella-running-in-rain-free-png.png);
+    display: grid;
+    row-gap: 300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-items: center;
+    align-items: center;
+}
+.item1{
+    /* border: solid rgb(0, 255, 26) 1px; */
+    color: white;
+    text-decoration: solid;
+}
+/* .item2{
+    border: 2px solid black;
+} */
+.getstart{
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px ;
+    background-color: rgba(255, 255, 255, 0.548);
+}
+.getstart:hover{
+    background-color: brown;
+    transition-duration: .5s;
+}

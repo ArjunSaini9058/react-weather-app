@@ -1,0 +1,12 @@
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+.container{
+  background-image:url(https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_1280.png);
+  /* background: linear-gradient(93.16deg,#20afea .01%,#09a286 100.01%); */
+  background-size: cover;
+  height: 900px;
+  display:grid;
+}
