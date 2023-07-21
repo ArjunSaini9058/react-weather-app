@@ -1,18 +1,15 @@
 .Bbox{
     border: 5px solid rgb(252, 252, 252);
-    margin: 50px;
     border-radius: 25px;
-    height: 500px;
-    width: 250px;
+    height: 80vh;
+    width: 45vh;
     justify-self: center;
     align-self: center;
     display: grid;
-    background-size: 200px 400px;
-    /* background: linear-gradient(93.16deg,#817bee .01%,#32aee3 100.01%); */
-    background: linear-gradient(93.16deg,#20afea .01%,#3c7ea9 100.01%);
     justify-items: center;
     align-items: center;
     color: rgb(40, 5, 75);
+    color: white;
     font-size: larger;
     font-weight: bolder;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -33,7 +30,10 @@
 .searchbar{
     padding: 5px;
     border-radius: 10px;
+    /* height: 40px; */
     background-color: rgba(16, 40, 147, 0);
+    color: white;
+    font-size: 20px;
 }
 .btn6:hover{
     background-color: brown;
@@ -47,6 +47,19 @@
     margin-right: 200px;
 }
 .arrow:hover{
-    background-color: brown;
-    transition-duration: .5s;
+    width: 15px;
+    cursor: pointer;
+}
+.icon{
+    /* background-color:red; */
+    background: #c2e59c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border-radius: 8px;
+}
+@media(max-width:350px){
+    .Bbox{
+        border: none;
+    }
 }

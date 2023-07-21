@@ -1,9 +1,8 @@
 .box{
-    margin: 50px;
     border: 5px solid rgb(252, 252, 252);
     border-radius: 25px;
-    height: 500px;
-    width: 250px;
+    height: 80vh;
+    width: 45vh;
     justify-self: center;
     align-self: center;
    background-size: 100%;
@@ -34,4 +33,9 @@
 .getstart:hover{
     background-color: brown;
     transition-duration: .5s;
+}
+@media(max-width:350px){
+    .box{
+        border: none;
+    }
 }

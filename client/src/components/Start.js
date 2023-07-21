@@ -9,7 +9,8 @@ const Start = () => {
     return (
         <div className='box'>
         <h2 className='item1'>WEATHER</h2>
-        <div className='item2'><button onClick={navigateHome}  className='getstart'><h4>Get Started</h4></button></div> 
+        <div className='item2'>
+        <button onClick={navigateHome}  className='getstart'><h4>Get Started</h4></button></div> 
     </div>
     )
 }
