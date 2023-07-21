@@ -14,9 +14,3 @@
   background-repeat: no-repeat;
   height: 100vh;
 }
-@media(max-width:600px){
-  .container{
-    background-image: url("https://i.postimg.cc/T2jRZTtn/bridge-g203f30a91-1280-min.jpg");
-
-  }
-  }
